@@ -25,18 +25,18 @@ export default function Activities() {
             setIndex((prevIndex) => (prevIndex + 1) % images.length);
             const nextSlide = currentSlide === 3 ? 1 : currentSlide + 1;
             setCurrentSlide(nextSlide);
-        }, 5000);
+        }, 15000);
 
         return () => clearInterval(interval);
     }, [images.length, currentSlide]);
 
 
     return (
-        <div style={{margin: '0px', padding: '0px'}}>
+        <div style={{ margin: '0px', padding: '0px' }}>
             <div className="carouselContainer d-md-none d-block" data-aos="flip-up" data-aos-delay="500">
                 <div className="courses">
-                    <p className="context" style={{ fontSize: '30px', fontWeight: 'bolder'}}>CONTEXT</p>
-                    <Carousel activeIndex={index} onSelect={setIndex}>
+                    <p className="context" style={{ fontSize: '30px', fontWeight: 'bolder' }}>CONTEXT</p>
+                    <Carousel activeIndex={index} onSelect={setIndex} interval={15000}>
                         <Carousel.Item>
                             <img
                                 className='d-block images'

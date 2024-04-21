@@ -37,3 +37,24 @@ nav a:hover {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     box-shadow: rgb(242 241 241 / 30%) 4.4px 4.4px 3.2px;
 }
+
+
+.headers{
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .logoImg {
+        width: 190px;
+        height: 40px;
+        margin-top: 5px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .headers{
+        margin-top: 10px;
+    }
+  }
+  

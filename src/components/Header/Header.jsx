@@ -17,7 +17,7 @@ export default function Header() {
     const faqRef = useRef(null);
     const contactRef = useRef(null);
     const activitiesRef = useRef(null);
-    
+
     const [expanded, setExpanded] = useState(false); // Add state for navbar collapse
 
     const scrollToRef = (ref) => {
@@ -37,32 +37,32 @@ export default function Header() {
         <div>
             <Navbar expand="lg" className='navbar-dark' expanded={expanded}> {/* Pass expanded state */}
                 <Container fluid>
-                    <Navbar.Brand href="#" onClick={() => scrollToRef(homeRef)}>
+                    <p className='headers' href="#" onClick={() => scrollToRef(homeRef)}>
                         <img
                             src={logo}
                             className="d-inline-block align-top logoImg"
                             alt="Train 2 Trade logo"
                         />
-                    </Navbar.Brand>
+                    </p>
                     <Navbar.Toggle aria-controls="navbarScroll" onClick={() => setExpanded(!expanded)} /> {/* Toggle expanded state */}
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="ms-auto my-2 my-lg-0"
                             navbarScroll
                         >
-                            <Nav.Link onClick={() => {scrollToRef(homeRef)}}>
+                            <Nav.Link onClick={() => { scrollToRef(homeRef) }}>
                                 Home
                             </Nav.Link>
-                            <Nav.Link onClick={() => {scrollToRef(followMeRef)}}>
+                            <Nav.Link onClick={() => { scrollToRef(followMeRef) }}>
                                 Follow Me
                             </Nav.Link>
-                            <Nav.Link onClick={() => {scrollToActivities()}}>
+                            <Nav.Link onClick={() => { scrollToActivities() }}>
                                 Activities
                             </Nav.Link>
-                            <Nav.Link onClick={() => {scrollToRef(faqRef)}}>
+                            <Nav.Link onClick={() => { scrollToRef(faqRef) }}>
                                 FAQ
                             </Nav.Link>
-                            <Nav.Link onClick={() => {scrollToRef(contactRef)}}>
+                            <Nav.Link onClick={() => { scrollToRef(contactRef) }}>
                                 Contact
                             </Nav.Link>
                         </Nav>

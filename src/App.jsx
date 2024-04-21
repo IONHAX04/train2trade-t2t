@@ -34,7 +34,7 @@ function App() {
 
       <div className="chatBotButton">
         <div className="fixed-bottom chatBot right-100" style={{ zIndex: "10", left: "initial", margin: '5px', background: 'transparent' }}>
-          <a href='https://chat.whatsapp.com/EDdkBcLGGMI0gUC9QPPLWl' target='_blank' style={{ background: 'transparent', backdropFilter: 'blur 2rem' }}>
+          <a href='https://chat.whatsapp.com/JMbW4h1sCXYCOFVzRouzJh' target='_blank' style={{ background: 'transparent', backdropFilter: 'blur 2rem' }}>
             <img src={whatsApp} className='whatsAppImage' alt='WhatsApp' style={{ background: 'transparent', filter: 'drop-shadow(10px 7px 10px violet)' }} />
           </a>
         </div>

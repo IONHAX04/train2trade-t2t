@@ -4,9 +4,9 @@ import { Typewriter } from 'react-simple-typewriter';
 
 import './home.css';
 
-import img1 from '../../assets/intro/11.png';
-import img2 from '../../assets/intro/13.png';
-import img3 from '../../assets/intro/15.png';
+import img1 from '../../assets/intro/2.png';
+import img2 from '../../assets/intro/1.png';
+import img3 from '../../assets/intro/3.png';
 
 export default function Home({ scrollToActivities }) {
     const handleViewCourseClick = () => {
@@ -19,7 +19,7 @@ export default function Home({ scrollToActivities }) {
                 Let's become
                 <span style={{ fontWeight: 'bold' }}>
                     <Typewriter
-                        words={[' Healthier ', ' Wealthier!', ' Happier !']}
+                        words={[' Wealthier !', ' Healthier !', ' Happier !']}
                         loop={0}
                         typeSpeed={120}
                         deleteSpeed={80}
@@ -41,7 +41,9 @@ export default function Home({ scrollToActivities }) {
                         }} />
                     <div className="buttons">
                         <button className='btn btn-light shadow-button' onClick={handleViewCourseClick}>View Course</button>
-                        <a href="https://wa.me/+919025715007/?text=I'm Interested in course - Personal Finance Mentoring" target="_blank"><button className='btn btn-light shadow-button'>Buy Now</button></a>
+                        <a href="https://wa.me/+917358668298/?text=🙌 *I'm Interested !!* %0A👉Connect with me for the course *PersonalFinance* %0A🤳Feel free to contact me *@7358668298* %0A*LearnAndEarn*" target="_blank">
+                            <button className='btn btn-light shadow-button'>Join Now</button>
+                        </a>
                     </div>
                 </div>
                 <div className="cardintro">
@@ -55,7 +57,9 @@ export default function Home({ scrollToActivities }) {
                         }} />
                     <div className="buttons">
                         <button className='btn btn-light shadow-button' onClick={handleViewCourseClick}>View Course</button>
-                        <a href="https://wa.me/+919025715007/?text=I'm Interested in course - Swing Trading" target="_blank"><button className='btn btn-light shadow-button'>Buy Now</button></a>
+                        <a href="https://wa.me/+917358668298/?text=🙌 *I'm Interested !!* %0A👉Connect with me for the course *SwingTrading* %0A🤳Feel free to contact me *@7358668298* %0A*LearnAndEarn*" target="_blank">
+                            <button className='btn btn-light shadow-button'>Join Now</button>
+                        </a>
                     </div>
                 </div>
                 <div className="cardintro">
@@ -69,7 +73,9 @@ export default function Home({ scrollToActivities }) {
                         }} />
                     <div className="buttons">
                         <button className='btn btn-light shadow-button' onClick={handleViewCourseClick}>View Course</button>
-                        <a href="https://wa.me/+919025715007/?text=I'm Interested in course - Trading Mentorship (1 On 1)" target="_blank"><button className='btn btn-light shadow-button'>Buy Now</button></a>
+                        <a href="https://wa.me/+917358668298/?text=🙌 *I'm Interested !!* %0A👉Connect with me for the course *Personal_1on1_Mentoring* %0A🤳Feel free to contact me *@7358668298* %0A*LearnAndEarn*" target="_blank">
+                            <button className='btn btn-light shadow-button'>Join Now</button>
+                        </a>
                     </div>
                 </div>
             </div>
